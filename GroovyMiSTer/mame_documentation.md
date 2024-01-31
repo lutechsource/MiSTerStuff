@@ -1,37 +1,37 @@
 Groovy MiSTer project Github: https://github.com/psakhis/Groovy_MiSTer
 
-#Instructions
-
-###Requirements
--These instructions use MAME on a Windows computer.
-
--Make sure the MiSTerFPGA is setup for analog video output. Refer to the CRT section of the MiSTerFPGA documentation. (https://mister-devel.github.io/MkDocs_MiSTer/advanced/crttable/)
-
-**Required files, available for download at: https://github.com/psakhis/Groovy_MiSTer/tree/main/test-builds)**
-Groovy.rbf
-MiSTer (Replaces the MiSTer file on your MiSTerFPGA installation)
-mame_nogpu_24.7z
-
-Also, ethernet is required for the best performance. Avoid using Wifi. 
-You can also use an ethernet cable to connect the MiSTerFPGA to a PC directly.
+### Requirements
+- These instructions use MAME on a Windows computer.
+- Make sure the MiSTerFPGA is setup for analog video output. Refer to the CRT section of the MiSTerFPGA documentation. (https://mister-devel.github.io/MkDocs_MiSTer/advanced/crttable/)
+- **Required files, available for download at: https://github.com/psakhis/Groovy_MiSTer/tree/main/test-builds)**
+  - **Groovy.rbf**
+  - **MiSTer** file (Replaces the **MiSTer** file on your MiSTerFPGA installation)
+  - **mame_nogpu_24.7z**
+- Also, ethernet is required for the best performance. Avoid using Wifi.
+  - You can also use an ethernet cable to connect the MiSTerFPGA to a PC directly.
 
 
+# Instructions
 
-On the MiSTerFPGA:
-Copy Groovy.rbf to the file to the /media/fat/_Utility folder.
-Rename the MiSTer file in /media/fat to MiSTer.bak.
-Copy the newly downloaded MiSTer file from the Groovy github to /media/fat.
+### On the MiSTerFPGA:
 
-It’s best to have a static IP address set for you MiSTerFPGA. You do that by:
-Editing the  /etc/dhcpcd.conf file on the MiSTer FPGA SDCard.
-Add these two lines at the end, replacing the your_static_ip_here with the ip address you want to use on the MiSTer
+- [ ] Copy Groovy.rbf file to the /media/fat/_Utility on MiSTer SD Card.
+- [ ] Rename the **MiSTer** file in /media/fat to **MiSTer.bak**.
+- [ ] Copy the newly downloaded **MiSTer** file from the Groovy github to /media/fat.
+- [ ] Configure a static IP adress for the MiSTer.
 
+**How to configure a Static IP on the MiSTer FPGA**
+
+Edit the  /etc/dhcpcd.conf file on the MiSTer FPGA SDCard.
+Add these two lines at the end, replacing the <your_static_ip_here> with the ip address you want to use on the MiSTer. This will set a static IP for the ethernet port, not Wifi.
+
+```
 interface eth0
-static ip_address=your_static_ip_here/24
+static ip_address=<your_static_ip_here>/24
+```
 
-
-On the PC:
-Extract mame_nogpu_24.7z to a current MAME installation. This will replace the mame.exe file, so rename the current one if you want to or just create a copy of the MAME installation just for GroovyMiSTer.
+### On the PC:
+- [ ] Extract **mame_nogpu_24.7z** to a current official MAME installation. This will replace the current mame.exe file, so rename the current one if you want to or just create a copy of the MAME installation just for GroovyMiSTer.
 
 Create a Windows shortcut or batch file in the MAME installation directory that runs this command:
 mame -video mister -aspect 4:3 -switchres -monitor arcade_15 -mister_window -mister_ip "192.x.x.x" -mister_compression lz4 
