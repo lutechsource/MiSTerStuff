@@ -4,7 +4,9 @@ Groovy MiSTer project Github: https://github.com/psakhis/Groovy_MiSTer
 
 ###Requirements
 -These instructions use MAME on a Windows computer.
+
 -Make sure the MiSTerFPGA is setup for analog video output. Refer to the CRT section of the MiSTerFPGA documentation. (https://mister-devel.github.io/MkDocs_MiSTer/advanced/crttable/)
+
 **Required files, available for download at: https://github.com/psakhis/Groovy_MiSTer/tree/main/test-builds)**
 Groovy.rbf
 MiSTer (Replaces the MiSTer file on your MiSTerFPGA installation)
