@@ -8,22 +8,21 @@ Groovy MiSTer project Github: [https://github.com/psakhis/Groovy_MiSTer](https:/
   - **MiSTer** file (Replaces the **MiSTer** file on your MiSTerFPGA installation)
   - **mame_nogpu_24.7z**
 - Also, ethernet is required for the best performance. Avoid using Wifi.
-  - You can also use an ethernet cable to connect the MiSTerFPGA to a PC directly.
+  - You can also use an ethernet cable to connect the MiSTerFPGA to a PC directly to each other.
 
 
 # Instructions
 
 ### On the MiSTerFPGA:
 
-- [ ] Copy Groovy.rbf file to the /media/fat/_Utility on MiSTer SD Card.
-- [ ] Rename the **MiSTer** file in /media/fat to **MiSTer.bak**.
-- [ ] Copy the newly downloaded **MiSTer** file from the Groovy github to /media/fat.
+- [ ] Copy Groovy.rbf file to the **/media/fat/_Utility/** folder on MiSTer SD Card.
+- [ ] Rename the **MiSTer** file in **/media/fat** to **MiSTer.bak**.
+- [ ] Copy the newly downloaded **MiSTer** file from the Groovy github to the **/media/fat/** folder.
 - [ ] Configure a static IP adress for the MiSTer.
 
 **How to configure a Static IP on the MiSTer FPGA**
 
-Edit the  /etc/dhcpcd.conf file on the MiSTer FPGA SDCard.
-Add these two lines at the end, replacing the <your_static_ip_here> with the ip address you want to use on the MiSTer. This will set a static IP for the ethernet port, not Wifi.
+Edit the **/etc/dhcpcd.conf** file on the MiSTer FPGA SDCard and add the below two lines at the end. Replace the <your_static_ip_here> with the ip address you want to use on the MiSTer. This will set a static IP for the ethernet port, not Wifi.
 
 ```
 interface eth0
