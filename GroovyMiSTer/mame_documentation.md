@@ -22,7 +22,7 @@ Groovy MiSTer project Github: [https://github.com/psakhis/Groovy_MiSTer](https:/
 
 **How to configure a Static IP on the MiSTer FPGA**
 
-Edit the **/etc/dhcpcd.conf** file on the MiSTer FPGA SDCard and add the below two lines at the end. Replace the <your_static_ip_here> with the ip address you want to use on the MiSTer. This will set a static IP for the ethernet port, not Wifi.
+Edit the **/etc/dhcpcd.conf** file on the MiSTer FPGA SDCard and add the below two lines at the end. Replace the **<your_static_ip_here>** text with the ip address you want to use on the MiSTer. This will set a static IP for the ethernet port, not Wifi.
 
 ```
 interface eth0
