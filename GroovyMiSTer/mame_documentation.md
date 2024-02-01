@@ -53,5 +53,4 @@ mame -video mister -aspect 4:3 -switchres -monitor arcade_15 -mister_window -mis
 Mame will now boot up on both the MiSTer and PC.
 
 >[!NOTE]
-Controls are handled through the PC. You **CANNOT** use controllers connected to MiSTer to play games over Groovy MiSTer.
-Remember you will have to configure MAME to fit your needs. Things like controls, location of your games, etc.
+Controls are handled through the PC. You **CANNOT** use controllers connected to MiSTer to play games over Groovy MiSTer. <BR><BR>Remember you will have to configure MAME to fit your needs. Things like controls, location of your games, etc. <BR><BR>The version of Groovy MAME in this documentation used 0.261 ROMS.
