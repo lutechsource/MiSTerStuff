@@ -49,6 +49,7 @@ mame -video mister -aspect 4:3 -switchres -monitor arcade_15 -mister_window -mis
 
 ### On the PC:
 - [ ] Run the mame batch file or shortcut you created for running mame.
+![Loading MAME on CRT](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/groovy_mister_gameloading.gif)
 
 Mame will now boot up on both the MiSTer and PC.
 
