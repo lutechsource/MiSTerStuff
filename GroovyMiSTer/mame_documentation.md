@@ -30,6 +30,11 @@ interface eth0
 static ip_address=<your_static_ip_here>/24
 ```
 
+- [ ] Load up the GroovyMiSTer core in the Utilities folder when you boot up.
+- [ ] A scrolling blue circle with red,blue,green lines will move around the screen. This means the MiSTer Groovy core is now ready to accept a connection from the PC.
+
+![Loading Groovy core](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/booting_groovy_core.gif)
+
 ### On the PC:
 - [ ] Extract **mame_nogpu_24.7z** to a current official MAME installation. This will replace the current mame.exe file, so rename the current one if you want to or just create a copy of the MAME installation just for GroovyMiSTer.
 - [ ] Create a Windows shortcut or batch file in the MAME installation directory that runs the below command. Replace 192.x.x.x with the static MiSTer IP address. Leave the quotes on the ip address.
@@ -41,16 +46,6 @@ mame -video mister -aspect 4:3 -switchres -monitor arcade_15 -mister_window -mis
 ### On PC & MiSTer:
 - [ ] Connect MiSTerFPGA and PC to the same ethernet network. The faster the better.
   - Or, if you can, connect the PC and MiSTer directly to each other using one ethernet cable. You can still use Wifi to connect the internet on both the PC and MiSTer if you have wifi adapters installed.
-
-
-### On the MiSTer:
-- [ ] Load up the GroovyMiSTer core in the Utilities folder when you boot up.
-- [ ] A scrolling blue circle with red,blue,green slashes will move around the screen.
-
->[!CAUTION]
-Add GIF of selecting core and booting it.
-
-The MiSTer is now ready to accept a connection from the PC.
 
 ### On the PC:
 - [ ] Run the mame batch file or shortcut you created for running mame.
