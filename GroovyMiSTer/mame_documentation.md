@@ -41,13 +41,14 @@ static ip_address=<your_static_ip_here>/24
 MAME INI edit
 
 ``
-video                     mister<BR>
-aspect                    4:3<BR>
-switchres                 1<BR>
-monitor                   arcade_15<BR>
-mister_window             1<BR>
-mister_ip                 192.x.x.x<BR>
-mister_compression        lz4<BR>
+video                     mister  
+
+aspect                    4:3
+switchres                 1
+monitor                   arcade_15
+mister_window             1
+mister_ip                 192.x.x.x
+mister_compression        lz4
 ``
 
 Shortcut version
