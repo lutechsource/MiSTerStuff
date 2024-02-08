@@ -42,7 +42,6 @@ MAME INI edit
 
 ``
 video                     mister  
-
 aspect                    4:3
 switchres                 1
 monitor                   arcade_15
