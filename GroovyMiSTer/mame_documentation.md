@@ -35,7 +35,7 @@ static ip_address=<your_static_ip_here>/24
 ![Loading Groovy core](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/booting_groovy_core.gif)
 
 ### On the PC:
-- [ ] Extract **mame_nogpu_24.7z** to a current official MAME installation. This will replace the current mame.exe file, so rename the current one if you want to or just create a copy of the MAME installation just for GroovyMiSTer.
+- [ ] Extract **mame_nogpu_24.7z** to a current official MAME installation. This will replace the current mame.exe file. Also delete the current **mame.ini** file so the newly extracted mame.exe can create its own.
 - [ ] Either create a Windows shortcut or batch file in the MAME installation directory that runs the below command. Or edit the MAME.ini file with the same changes. Make sure to replace 192.x.x.x with the static MiSTer IP address. Leave the quotes on the ip address.
 
 MAME INI edit
