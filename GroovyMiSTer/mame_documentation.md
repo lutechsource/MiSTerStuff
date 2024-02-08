@@ -36,11 +36,24 @@ static ip_address=<your_static_ip_here>/24
 
 ### On the PC:
 - [ ] Extract **mame_nogpu_24.7z** to a current official MAME installation. This will replace the current mame.exe file, so rename the current one if you want to or just create a copy of the MAME installation just for GroovyMiSTer.
-- [ ] Create a Windows shortcut or batch file in the MAME installation directory that runs the below command. Replace 192.x.x.x with the static MiSTer IP address. Leave the quotes on the ip address.
+- [ ] Either create a Windows shortcut or batch file in the MAME installation directory that runs the below command. Or edit the MAME.ini file with the same changes. Make sure to replace 192.x.x.x with the static MiSTer IP address. Leave the quotes on the ip address.
 
+MAME INI edit
+``
+video                     mister
+aspect                    4:3
+switchres                 1
+monitor                   arcade_15
+mister_window             1
+mister_ip                 192.x.x.x
+mister_compression        lz4
+``
+
+Shortcut version
 ``
 mame -video mister -aspect 4:3 -switchres -monitor arcade_15 -mister_window -mister_ip "192.x.x.x" -mister_compression lz4
 ``
+
 
 ### On PC & MiSTer:
 - [ ] Connect MiSTerFPGA and PC to the same ethernet network. The faster the better.
