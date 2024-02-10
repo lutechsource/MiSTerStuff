@@ -29,6 +29,11 @@ interface eth0
 static ip_address=<your_static_ip_here>/24
 ```
 
+>[!NOTE]
+>If you are having trouble setting a static IP address, try using an IP address on the MiSTer that is outside your routers DHCP address pool.
+>For example, my routers DHCP pool was from 192.168.0.100 to 192.168.0.249. So I set the IP address to one under 192.168.0.100. I used 192.168.0.95.
+>
+
 - [ ] Load up the GroovyMiSTer core in the Utilities folder when you boot up.
 - [ ] A scrolling blue circle with red,blue,green lines will move around the screen. This means the MiSTer Groovy core is now ready to accept a connection from the PC.
 
