@@ -13,7 +13,7 @@ Groovy MiSTer project Github: [https://github.com/psakhis/Groovy_MiSTer](https:/
 
 # Instructions
 
-### 1. On the MiSTerFPGA:
+### Section 1. On the MiSTerFPGA:
 
 - [ ] Copy Groovy.rbf file to the **/media/fat/_Utility/** folder on MiSTer SD Card.
 - [ ] Rename the **MiSTer** file in **/media/fat** to **MiSTer.bak**.
@@ -39,7 +39,7 @@ static ip_address=<your_static_ip_here>/24
 
 ![Loading Groovy core](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/booting_groovy_core.gif)
 
-### On the PC:
+### Section 2 - On the PC:
 - [ ] Extract **mame_nogpu_24.7z** to a current official MAME installation. This will replace the current mame.exe file. Also delete the current **mame.ini** file so the newly extracted mame.exe can create its own.
 - [ ]  Edit the MAME.ini with the below changes. Make sure to replace 192.x.x.x with the static MiSTer IP address. Leave the quotes on the ip address.
 
@@ -61,11 +61,11 @@ mame -video mister -aspect 4:3 -switchres -monitor arcade_15 -mister_window -mis
 ``
 
 
-### On PC & MiSTer:
+### Section 3 - On PC & MiSTer:
 - [ ] Connect MiSTerFPGA and PC to the same ethernet network. The faster the better.
   - Or, if you can, connect the PC and MiSTer directly to each other using one ethernet cable. You can still use Wifi to connect the internet on both the PC and MiSTer if you have wifi adapters installed.
 
-### On the PC:
+### Section 4 - On the PC:
 - [ ] Run the mame batch file or shortcut you created for running mame.
 ![Loading MAME on CRT](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/groovy_mister_gameloading.gif)
 
