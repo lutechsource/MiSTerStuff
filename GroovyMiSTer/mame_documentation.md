@@ -13,7 +13,7 @@ Groovy MiSTer project Github: [https://github.com/psakhis/Groovy_MiSTer](https:/
 
 # Instructions
 
-### On the MiSTerFPGA:
+### 1. On the MiSTerFPGA:
 
 - [ ] Copy Groovy.rbf file to the **/media/fat/_Utility/** folder on MiSTer SD Card.
 - [ ] Rename the **MiSTer** file in **/media/fat** to **MiSTer.bak**.
