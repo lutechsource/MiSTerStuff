@@ -1,6 +1,4 @@
 This is a guide to setting up MiSTerCast
->[!CAUTION]
-WARNING! These instructions are NOT incomplete and still being worked on.
 
 # Requirements
 - Groovy MiSTer setup on MiSTerFPGA. It is in Section 1 from [here](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/mame_documentation.md#section-1-on-the-misterfpga)
@@ -13,16 +11,16 @@ WARNING! These instructions are NOT incomplete and still being worked on.
 2. Make sure the  MiSTer FPGA are connected to the same network, or straight to each other using an ethernet cable. Wifi is very unstable so do not use it.
 
 3. Run the Groovy MiSTer core on the MiSTer FPGA. Doing this will prepate the MiSTer to recieve a connection from the PC.
+    1. If you want sound output from the MiSTerFPGA, bring up there core menu select "Audio Setttings" then set "Audio" to "On."
 
-4. If you want sound output from the MiSTerFPGA, bring up there core menu select ?????? then ??????.
-
-5. Download MiSTerCast application. Extract zip and run MiSTerCast.exe
+4. Download the MiSTerCast application (Link above in requirements). Extract zip and run MiSTerCast.exe
     1. If you want sound to be output from the MiSTerFPGA check off "Enable Sound"
-    2. If you have multiple monitors select the monitor you want to out by ????????????
+    2. If you have multiple monitors select the monitor you want to output to by selecting it in the Display dropdown located in the "Capture Source" section.
 
-6. On the "Target IP" textbox enter the IP address of the MiSTerFPGA's ethernet port and then click "Stream"
+5. On the "Target IP" textbox enter the IP address of the MiSTerFPGA's ethernet port and then click "Start Stream"
 
-7. Your desktop will now appear on the CRT. Look below for an overview of the options to customize your experience.
+6. Your desktop will now appear on the CRT. Look below for an overview of the options to customize your experience.
 
 # MiSTerCast Options
-
+>[!CAUTION]
+This section is still being worked on.
