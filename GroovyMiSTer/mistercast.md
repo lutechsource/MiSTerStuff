@@ -3,7 +3,7 @@ This is a guide to setting up MiSTerCast
 WARNING! These instructions are NOT incomplete and still being worked on.
 
 # Requirements
-- Groovy MiSTer setup on MiSTerFPGA. Section 1 from [here](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/mame_documentation.md#section-1-on-the-misterfpga)
+- Groovy MiSTer setup on MiSTerFPGA. It is in Section 1 from [here](https://github.com/lutechsource/MiSTerStuff/blob/main/GroovyMiSTer/mame_documentation.md#section-1-on-the-misterfpga)
 - MiSTerCast software by Shane Lynch available  [here](https://github.com/iequalshane/MiSTerCast/releases). There is also a link there to the Microsoft VC++ x86 Redistributable. Make sure to install that also if it's already not installed on your computer.
 
 # Instructions
