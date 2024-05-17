@@ -1,7 +1,7 @@
 
 # RP2040 Firmware Update (This is using the Rev1 baseboard)
 - MiSTex has a builtin RP2040
-- Solder a wire to both holes in J9 on the baseboard
+- Solder a wire to both holes in J9 on the baseboard (Figure 1 & 2 & 3)
 - Connect a USBC cable to RP2040 port on baseboard
 - Plug other end of USBC cable to a PC. 
     - You will want to plug into a USB-C hub, otherwise if plug directly to PC USB port, transfer rate will be many times slower
