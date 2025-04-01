@@ -94,9 +94,9 @@ I haven’t tested the Mega Drive core yet.
 * At the moment an unstable Saturn core build is necessary.
   * Download latest rbf from here: https://github.com/MiSTer-unstable-nightlies/Saturn_MiSTer/releases/tag/unstable-builds  
 * Bring up core menu.
-* Go to **Define Saturn buttons**. Below are what buttons pertain to what light gun controls.
-  * A: Trigger
-  * Start: Gun Start
+* Go to **Define Saturn buttons**. Below are what buttons pertain to what light gun controls. Just map the two buttons below
+  * Saturn A button: Gun Trigger
+  * Saturn Start button: Gun Start
 * Now go to the main core menu page use these settings
   * Go to **Input**
   * **Pad 1 or Pad2:** Virt LGun
