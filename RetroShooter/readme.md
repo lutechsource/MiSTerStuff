@@ -4,11 +4,7 @@
 
 * Retro Shooter light guns
   * Available at https://retroshooter.com/
-* Make sure your MiSTer FPGA is up-to-date, so run update_all
-* At the moment, an unstable Linux kernel is required. 
-  * Download the kernel here (Choose the Jan 13 2025): [https://github.com/MiSTer-unstable-nightlies/Linux-Kernel\_MiSTer/releases](https://github.com/MiSTer-unstable-nightlies/Linux-Kernel_MiSTer/releases)
-  * Rename the downloaded file to zImage_dtb
-  * Copy it to the **/media/fat/linux/** directory on your SD Card. Make sure to backup the current zImage_dtb, in case something goes wrong.
+* Make sure your MiSTer FPGA is up-to-date, so run update_all. An unstable build of Linux is no longer necessary.
 * A keyboard (So you can press F10 to bring up the calibration menu)
 
 ### 1.  **Calibrate Lightguns on PC**
