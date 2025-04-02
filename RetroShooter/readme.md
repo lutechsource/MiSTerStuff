@@ -28,7 +28,7 @@ Retro Shooter Facebook group:
 * After you’re done configuring buttons you can start loading cores, but they also need to be configured.
 
 > [!NOTE]  
-> Retro Shooters makes some other lightguns. The RS3 Reaper models also work, but need to set these lightguns to Joystick mode to work on the MiSTer FPGA. I do not own the Reapers so can't confirm the below instructions work the same.
+> Retro Shooter makes some other lightguns. The **RS3 Reaper** models also work, but need to set these lightguns to Joystick mode to work on the MiSTer FPGA. I do not own the Reapers so can't confirm the below instructions work as described with the Reapers.
 
 
 **Below are some core specific guides, I’m still testing the lightgun so I’ll add more cores as I do more testing.**
