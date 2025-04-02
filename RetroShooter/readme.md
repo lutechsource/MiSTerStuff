@@ -2,8 +2,9 @@
 
 ## **Pre-requisites**
 
-* Retro Shooter light guns
+* **Retro Shooter** or **RS3 Reaper** light guns
   * Available at https://retroshooter.com/
+  * I have not tested the RS3 Reapers
 * Make sure your MiSTer FPGA is up-to-date, so run update_all. An unstable build of Linux is no longer necessary.
 * A keyboard (So you can press F10 to bring up the calibration menu)
 
