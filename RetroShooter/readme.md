@@ -33,15 +33,15 @@ Retro Shooter Facebook group:
 
 **Below are some core specific guides, I’m still testing the lightgun so I’ll add more cores as I do more testing.**
 
-## **Atari 7800 Core**
+## **Atari 2600 & 7800 Core**
 
 > [!WARNING]  
-> I couldn't get the Atari 7800 core to calibrate properly at all. However, if you may be more successful, so I still provided the instructions.
+> I couldn't get the Atari 2600 & 7800 cores to calibrate properly at all. However, if you may be more successful, so I still provided the instructions.
 
 
 * Bring up core menu.
-* Go to **Define Atari 7800 buttons.** Below are what buttons pertain to what light gun controls.
-  * 7800 Fire1: Lightgun trigger
+* Go to **Define Atari 2600/7800 buttons.** Below are what buttons pertain to what light gun controls.
+  * 2600 Fire1: Lightgun trigger
 * Now Go to **Peripherals** option in the main core menu and use these settings
   * **Port1 or 2 Input:** Lightgun. You can also see if "Auto" works. 
     * Choosing port 1 or 2 depends what player you light gun was set to when you loaded the core
