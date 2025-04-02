@@ -31,24 +31,7 @@ Retro Shooter Facebook group:
 
 **Below are some core specific guides, I’m still testing the lightgun so I’ll add more cores as I do more testing.**
 
-## **NES Core**
 
-* Bring up core menu.
-* Go to **Define NES buttons**
-  * Define the buttons on the light gun the way you want. However, make sure that when you get to **Zapper/Vaus Btn**, you map it to the **trigger** of the light gun.
-* Go to **Input Options** and use these settings
-  * **Periphery: Zapper (Joy1) or Zapper(Joy2).** 
-    * It all depends what player you light gun was set to when you loaded the core
-  * **Zapper Trigger:** Joystick
-  * **Crosshair:** Your preference.
-  * **Swap Joysticks:** Change this in some cases if the lightgun is not working. This will change the player 1 controller to player 2 and vice versa.
-* Load a lightgun game
-  * Calibrate the gun for the core. Bring up the core menu and press **F10** on your keyboard. Follow the calibration instructions. 
-    * Calibrate to the viewable 4:3 area of the core screen. NOT the entire size of a 16:9 screen. A game screen that has no black will make this easier.
-  * Remember you might need to change the **Swap Joysticks** settings if the lightgun isn’t working.
-  * You may also need to calibrate using a games built-in calibration tool
-  * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
-* Enjoy your game!
 
 ## **Genesis Core (Not the MegaDrive core)**
 
@@ -66,6 +49,25 @@ I haven’t tested the Mega Drive core yet.
   * Calibrate the gun for the core. Bring up the core menu and press **F10** on your keyboard. Follow the calibration instructions. 
     * Calibrate to the viewable 4:3 area of the core screen. NOT the entire size of a 16:9 screen. A game screen that has no black will make this easier.
   * You might need to change the **Gun Control** setting if the lightgun isn’t working. If it’s at **Joy1** then change it to **Joy2** or vice versa.
+  * You may also need to calibrate using a games built-in calibration tool
+  * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
+* Enjoy your game!
+
+## **NES Core**
+
+* Bring up core menu.
+* Go to **Define NES buttons**
+  * Define the buttons on the light gun the way you want. However, make sure that when you get to **Zapper/Vaus Btn**, you map it to the **trigger** of the light gun.
+* Go to **Input Options** and use these settings
+  * **Periphery: Zapper (Joy1) or Zapper(Joy2).** 
+    * It all depends what player you light gun was set to when you loaded the core
+  * **Zapper Trigger:** Joystick
+  * **Crosshair:** Your preference.
+  * **Swap Joysticks:** Change this in some cases if the lightgun is not working. This will change the player 1 controller to player 2 and vice versa.
+* Load a lightgun game
+  * Calibrate the gun for the core. Bring up the core menu and press **F10** on your keyboard. Follow the calibration instructions. 
+    * Calibrate to the viewable 4:3 area of the core screen. NOT the entire size of a 16:9 screen. A game screen that has no black will make this easier.
+  * Remember you might need to change the **Swap Joysticks** settings if the lightgun isn’t working.
   * You may also need to calibrate using a games built-in calibration tool
   * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
 * Enjoy your game!
@@ -108,6 +110,35 @@ I haven’t tested the Mega Drive core yet.
 * Load a lightgun game
   * Calibrate the gun for the core. Bring up the core menu and press **F10** on your keyboard. Follow the calibration instructions.
     * Calibrate to the viewable 4:3 area of the core screen. NOT the entire size of a 16:9 screen. A game screen that has no black will make this easier.
+  * You may also need to calibrate using a games built-in calibration tool
+  * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
+* Enjoy your game!
+
+## **SNES Core**
+
+* Bring up core menu.
+* Go to **Define SNES buttons**
+  * Define the buttons on the light gun the way you want.
+  * SNES A (SS Fire) : Lightgun trigger
+  * SNES B (SS Cursor): your choice of button on the lightgun
+  * SNES X (SS TurboSW): your choice of button on the lightgun
+  * SNES Y (SS pause): your choice of button on the lightgun
+  * LT(SS Cursor): your choice of button on the lightgun. Not required if you already mapped A
+  * RT(SS Fire): your choice of button on the lightgun. Not required if you already mapped B
+* Go to **Input Options** and use these settings
+  * **Super Scope:** Joy1 or Joy 2
+    * It all depends what player you light gun was set to when you loaded the core
+  * **Super Scope button:** Joys
+  * **Crosshair:** Your preference.
+  * **Gun Type:** Depends on the game. Konami games use justifier. All other games should be super scope (not 100% on this so try switching this if a game does work)
+  * **Swap Joysticks:** Change this in some cases if the   is not working. This will change the player 1 controller to player 2 and vice versa.
+--------------------
+
+
+* Load a lightgun game
+  * Calibrate the gun for the core. Bring up the core menu and press **F10** on your keyboard. Follow the calibration instructions. 
+    * Calibrate to the viewable 4:3 area of the core screen. NOT the entire size of a 16:9 screen. A game screen that has no black will make this easier.
+  * Remember you might need to change the **Swap Joysticks** settings if the lightgun isn’t working.
   * You may also need to calibrate using a games built-in calibration tool
   * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
 * Enjoy your game!
