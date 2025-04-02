@@ -140,7 +140,7 @@ I haven’t tested the Mega Drive core yet.
   * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
 * Enjoy your game!
 
-## **Atari Sega Master System Core**
+## **Sega Master System Core**
 
 > [!WARNING]  
 > I couldn't get the Sega Master System cores to calibrate properly at all. However, if you may be more successful, so I still provided the instructions.
@@ -170,8 +170,8 @@ I haven’t tested the Mega Drive core yet.
 * Bring up core menu.
 * Go to **Define SNES buttons**
   * Define the buttons on the light gun the way you want.
-  * SNES A (SS Fire) : Lightgun trigger
-  * SNES B (SS Cursor): your choice of button on the lightgun
+  * SNES A (SS Fire) : Lightgun trigger. This can depend on the game. e.g. for T2: The arcade game SNES button is for firing rockets.
+  * SNES B (SS Cursor): your choice of button on the lightgun. This can depend on the game. e.g. for T2: The arcade game SNES button is for firing your standard weapon.
   * SNES X (SS TurboSW): your choice of button on the lightgun
   * SNES Y (SS pause): your choice of button on the lightgun
   * LT(SS Cursor): your choice of button on the lightgun. Not required if you already mapped A
