@@ -27,6 +27,8 @@ Retro Shooter Facebook group:
   * Since the light gun is seen as a keyboard you will not be able to use space to skip a key mapping. Even if you have another keyboard plugged in you will not be able to use its space button. Instead you will have to use your MiSTerFPGA’s physical USER button.
 * After you’re done configuring buttons you can start loading cores, but they also need to be configured.
 
+> [!NOTE]  
+> Retro Shooters makes some other lightguns. The RS3 Reaper models also work, but need to set these lightguns to Joystick mode to work on the MiSTer FPGA. I do not own the Reapers so can't confirm the below instructions work the same.
 
 
 **Below are some core specific guides, I’m still testing the lightgun so I’ll add more cores as I do more testing.**
