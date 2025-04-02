@@ -34,7 +34,7 @@ Retro Shooter Facebook group:
 ## **Atari 7800 Core**
 
 > [!WARNING]  
-> I couldn't get this core to calibrate at all. However, if you may be more successful, so below are the instructions for the Atari 7800.
+> I couldn't get the Atari 7800 core to calibrate properly at all. However, if you may be more successful, so I still provided the instructions.
 
 
 * Bring up core menu.
@@ -156,14 +156,15 @@ I haven’t tested the Mega Drive core yet.
   * **Crosshair:** Your preference.
   * **Gun Type:** Depends on the game. Konami games use justifier. All other games should be super scope (not 100% on this so try switching this if a game does work)
   * **Swap Joysticks:** Change this in some cases if the   is not working. This will change the player 1 controller to player 2 and vice versa.
---------------------
-
-
-* Load a lightgun game
+ * Load a lightgun game
   * Calibrate the gun for the core. Bring up the core menu and press **F10** on your keyboard. Follow the calibration instructions. 
     * Calibrate to the viewable 4:3 area of the core screen. NOT the entire size of a 16:9 screen. A game screen that has no black will make this easier.
   * Remember you might need to change the **Swap Joysticks** settings if the lightgun isn’t working.
   * You may also need to calibrate using a games built-in calibration tool
   * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
 * Enjoy your game!
+
+
+
+
 
