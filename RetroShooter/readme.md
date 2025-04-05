@@ -188,6 +188,18 @@ I haven’t tested the Mega Drive core yet.
   * If you experience further calibration issues, you may need to calibrate your light gun in Windows.
 * Enjoy your game!
 
+## **BRONX/Cycle Shooter (Arcade)**
+
+* Does not work with the Retro Shooters. While I can move the crosshair with the light gun, the accuracy is way off and calibration doesn't work.
+* There are Sinden specific settings so that light gun looks to be supported.
+* I do not know if the Reaper RS3's light guns work
+
+## **N.Y. Captor (Arcade)**
+
+* Does not work with the Retro Shooters. While I can move the crosshair with the light gun, the accuracy is way off and calibration doesn't work.
+* There are Sinden specific settings so that light gun looks to be supported.
+* I do not know if the Reaper RS3's light guns work
+
 
 
 
