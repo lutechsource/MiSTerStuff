@@ -8,10 +8,11 @@ The software I’ll be using is Open Media Vault. It’s very popular in the Ras
 
 Below is a written guide to setting everything up. I also have a video that walks you through the process too.
 
+Overview video: https://youtu.be/8Hi5eiHuaSU
+Detailed guide video: https://youtu.be/WqWFAfisbeU
+
 
 # Requirements
-
-
 
 1. At least a Raspberry Pi 2. Newer ones will give you better performance
     * Raspberry Pi OS Lite installed on the Pi
