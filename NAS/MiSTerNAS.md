@@ -230,7 +230,7 @@ On a Mac it should look similar to this (Not that there are more folders not sho
 Create these folders in the share
 
 games  
-save
+save  
 savestates
 
 Your share should look like this on a PC:
